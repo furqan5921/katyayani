@@ -1,0 +1,44 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Prisma
+prisma/dev.db
+prisma/dev.db-journal
+
+# SQLite (if used)
+*.sqlite
+*.sqlite-journal
+
+# Coverage reports
+coverage/
+
+# Build directories (if you compile TS or use build step)
+dist/
+build/
+
+# Optional: Editor directories
+.vscode/
+.idea/
+
+# Optional: Ignore Mac metadata files
+._*
+
+# PM2 log files
+pids/
+*.pid
+*.seed
+*.pid.lock
